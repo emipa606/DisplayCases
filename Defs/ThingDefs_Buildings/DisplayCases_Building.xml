@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="DisplayBase" ParentName="ArtableFurnitureBase" Abstract="True">
+    <label>display case</label>
+    <description>An elegant display case. Usually used for storing valuable stuff.</description>
+    <tradeTags>
+      <li>Furniture</li>
+    </tradeTags>
+    <category>Building</category>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <pathCost>50</pathCost>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+            <li>Apparel</li>
+            <li>Items</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Critical</priority>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="DisplayBase">
+    <defName>DisplayCases_SingleDisplay</defName>
+    <thingClass>DisplayCases.Building_Display_Case</thingClass>
+    <size>(1,1)</size>
+    <graphicData>
+      <texPath>Building/Furniture/DisplayCases/SingleDisplay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3, 3)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Gold>25</Gold>
+      <Silver>50</Silver>
+    </costList>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>1250</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Mass>40</Mass>
+      <Beauty>35</Beauty>
+    </statBases>
+    <comps>
+      <li Class="DisplayCases.CompProperties_SecondLayer">
+        <graphicData>
+          <texPath>Building/Furniture/DisplayCases/SingleDisplayLid</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>Transparent</shaderType>
+          <drawSize>(3,3)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtFurniture</nameMaker>
+        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="DisplayBase">
+    <defName>DisplayCases_DualDisplay</defName>
+    <thingClass>DisplayCases.Building_Display_Case</thingClass>
+    <size>(2,1)</size>
+    <graphicData>
+      <texPath>Building/Furniture/DisplayCases/DualDisplay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,3)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Gold>50</Gold>
+      <Silver>100</Silver>
+    </costList>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Mass>80</Mass>
+      <Beauty>70</Beauty>
+    </statBases>
+    <comps>
+      <li Class="DisplayCases.CompProperties_SecondLayer">
+        <graphicData>
+          <texPath>Building/Furniture/DisplayCases/DualDisplayLid</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>Transparent</shaderType>
+          <drawSize>(4,3)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
