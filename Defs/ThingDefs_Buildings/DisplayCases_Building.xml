@@ -7,7 +7,7 @@
       <li>Furniture</li>
     </tradeTags>
     <category>Building</category>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
