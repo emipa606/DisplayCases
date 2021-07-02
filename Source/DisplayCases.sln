@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayCases", "DisplayCases\DisplayCases.csproj", "{2258F1CC-9024-4260-9E26-AF8BD2FC4898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisplayCases", "DisplayCases\DisplayCases.csproj", "{2258F1CC-9024-4260-9E26-AF8BD2FC4898}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaveStorageSettingsUtil", "SaveStorageSettingsUtil\SaveStorageSettingsUtil.csproj", "{27C81B32-49EE-4CDC-81EB-FB62461B1EA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{2258F1CC-9024-4260-9E26-AF8BD2FC4898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2258F1CC-9024-4260-9E26-AF8BD2FC4898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2258F1CC-9024-4260-9E26-AF8BD2FC4898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C81B32-49EE-4CDC-81EB-FB62461B1EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C81B32-49EE-4CDC-81EB-FB62461B1EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C81B32-49EE-4CDC-81EB-FB62461B1EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C81B32-49EE-4CDC-81EB-FB62461B1EA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2ABFC1B-52AB-4C54-8428-F57A930918AE}
 	EndGlobalSection
 EndGlobal
