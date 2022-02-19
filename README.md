@@ -1,33 +1,24 @@
 # DisplayCases
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Calis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1134779211
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/DisplayCases]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Adds display cases for showcasing legendary items.
 
-Legendary items actually have negative beauty in-game, this mod hides that negative beauty and the display case itself adds beauty of it&apos;s own. Find them in the &apos;furniture&apos; tab.
+Legendary items actually have negative beauty in-game, this mod hides that negative beauty and the display case itself adds beauty of it's own. Find them in the 'furniture' tab.
 
 https://www.dropbox.com/s/wgfy19wlz7xr21l/DisplayCases_0.3.zip?dl=0]Dropbox
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -37,7 +28,6 @@ https://www.dropbox.com/s/wgfy19wlz7xr21l/DisplayCases_0.3.zip?dl=0]Dropbox
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 

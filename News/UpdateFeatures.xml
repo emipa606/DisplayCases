@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="DisplayCases_UpdateFeatureBase">
     <modNameReadable>DisplayCases</modNameReadable>
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2086054868</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef ParentName="DisplayCases_UpdateFeatureBase">
     <defName>DisplayCases_1_0_1_0</defName>
     <assemblyVersion>1.0.1.0</assemblyVersion>
     <content>The cases are now rotatable. No custom graphics so it might look a bit off. If anyone wants to make art for the rotated cases I would happily add it to the mod.</content>
