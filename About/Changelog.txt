@@ -1,5 +1,8 @@
 # Changelog for DisplayCases
 
+1.4.2 - Added luxury spirits from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2186560858]Vanilla Brewing Expanded[/url] as possible to display
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

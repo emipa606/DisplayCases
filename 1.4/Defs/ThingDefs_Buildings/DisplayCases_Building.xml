@@ -34,6 +34,7 @@
             <li>Weapons</li>
             <li>Apparel</li>
             <li>Items</li>
+            <li MayRequire="VanillaExpanded.VBrewE">VBE_DrinksLuxurySpirits</li>
           </categories>
         </filter>
       </fixedStorageSettings>
