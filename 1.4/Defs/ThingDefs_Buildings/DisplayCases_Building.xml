@@ -27,7 +27,7 @@
     <building>
       <maxItemsInCell>1</maxItemsInCell>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <ignoreStoredThingsBeauty>false</ignoreStoredThingsBeauty>
       <fixedStorageSettings>
         <filter>
           <categories>

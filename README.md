@@ -31,5 +31,5 @@ https://www.dropbox.com/s/wgfy19wlz7xr21l/DisplayCases_0.3.zip?dl=0]Dropbox
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2086054868]![Image](https://img.shields.io/github/v/release/emipa606/DisplayCases?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2086054868]Last updated 2023-09-03
