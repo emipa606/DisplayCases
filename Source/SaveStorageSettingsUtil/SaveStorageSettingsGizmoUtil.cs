@@ -62,7 +62,7 @@ public static class SaveStorageSettingsGizmoUtil
     public static IEnumerable<Gizmo> AddSaveLoadGizmos(IEnumerable<Gizmo> gizmos, string storageTypeName,
         ThingFilter thingFilter, int groupKey = 987767552)
     {
-        var gizmos2 = gizmos != null ? new List<Gizmo>(gizmos) : new List<Gizmo>(2);
+        var gizmos2 = gizmos != null ? [..gizmos] : new List<Gizmo>(2);
 
         return AddSaveLoadGizmos(gizmos2, storageTypeName, thingFilter);
     }
@@ -78,13 +78,12 @@ public static class SaveStorageSettingsGizmoUtil
                 saveStateAssembly.GetType("SaveStorageSettings.GizmoUtil")
                     .GetMethod("AddSaveLoadGizmos", BindingFlags.Static | BindingFlags.Public)
                     ?.Invoke(null,
-                        new object[]
-                        {
-                            gizmos,
-                            storageTypeName,
-                            thingFilter,
-                            groupKey
-                        });
+                    [
+                        gizmos,
+                        storageTypeName,
+                        thingFilter,
+                        groupKey
+                    ]);
             }
         }
         catch (Exception ex)

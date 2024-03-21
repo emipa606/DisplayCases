@@ -1,5 +1,8 @@
 # Changelog for DisplayCases
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.3 - Stored things beauty will now be counted
 
 
