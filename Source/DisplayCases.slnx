@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="DisplayCases/DisplayCases.csproj" />
+  <Project Path="SaveStorageSettingsUtil/SaveStorageSettingsUtil.csproj" />
+</Solution>

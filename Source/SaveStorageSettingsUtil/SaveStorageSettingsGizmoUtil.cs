@@ -48,19 +48,19 @@ public static class SaveStorageSettingsGizmoUtil
     }
 
     public static IEnumerable<Gizmo> AddSaveLoadGizmos(IEnumerable<Gizmo> gizmos, SaveTypeEnum saveTypeEnum,
-        ThingFilter thingFilter, int groupKey = 987767552)
+        ThingFilter thingFilter)
     {
         return AddSaveLoadGizmos(gizmos, saveTypeEnum.ToString(), thingFilter);
     }
 
     public static List<Gizmo> AddSaveLoadGizmos(List<Gizmo> gizmos, SaveTypeEnum saveTypeEnum,
-        ThingFilter thingFilter, int groupKey = 987767552)
+        ThingFilter thingFilter)
     {
         return AddSaveLoadGizmos(gizmos, saveTypeEnum.ToString(), thingFilter);
     }
 
     public static IEnumerable<Gizmo> AddSaveLoadGizmos(IEnumerable<Gizmo> gizmos, string storageTypeName,
-        ThingFilter thingFilter, int groupKey = 987767552)
+        ThingFilter thingFilter)
     {
         var gizmos2 = gizmos != null ? [..gizmos] : new List<Gizmo>(2);
 

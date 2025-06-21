@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: display case -->
+  <DisplayCases_DualDisplay.label>display case</DisplayCases_DualDisplay.label>
+  <!-- EN: An elegant display case. Usually used for storing valuable stuff. -->
+  <DisplayCases_DualDisplay.description>An elegant display case. Usually used for storing valuable stuff.</DisplayCases_DualDisplay.description>
+  <!-- EN: display case -->
+  <DisplayCases_SingleDisplay.label>display case</DisplayCases_SingleDisplay.label>
+  <!-- EN: An elegant display case. Usually used for storing valuable stuff. -->
+  <DisplayCases_SingleDisplay.description>An elegant display case. Usually used for storing valuable stuff.</DisplayCases_SingleDisplay.description>
+</LanguageData>

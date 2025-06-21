@@ -3,13 +3,13 @@ using Verse;
 
 namespace DisplayCases;
 
-internal class CompSecondLayer : ThingComp
+internal sealed class CompSecondLayer : ThingComp
 {
     private Graphic graphicInt;
 
     private CompProperties_SecondLayer Props => (CompProperties_SecondLayer)props;
 
-    protected virtual Graphic Graphic
+    private Graphic Graphic
     {
         get
         {
