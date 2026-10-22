@@ -5,17 +5,15 @@ namespace DisplayCases;
 
 internal sealed class CompSecondLayer : ThingComp
 {
-    private Graphic graphicInt;
-
     private CompProperties_SecondLayer Props => (CompProperties_SecondLayer)props;
 
     private Graphic Graphic
     {
         get
         {
-            if (graphicInt != null)
+            if (field != null)
             {
-                return graphicInt;
+                return field;
             }
 
             if (Props.graphicData == null)
@@ -25,9 +23,9 @@ internal sealed class CompSecondLayer : ThingComp
                 return BaseContent.BadGraphic;
             }
 
-            graphicInt = Props.graphicData.GraphicColoredFor(parent);
+            field = Props.graphicData.GraphicColoredFor(parent);
 
-            return graphicInt;
+            return field;
         }
     }
 

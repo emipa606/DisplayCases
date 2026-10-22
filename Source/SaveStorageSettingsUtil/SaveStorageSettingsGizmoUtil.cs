@@ -9,13 +9,11 @@ public static class SaveStorageSettingsGizmoUtil
 {
     private static Assembly saveStateAssembly;
 
-    private static bool initialized;
-
     private static bool Exists
     {
         get
         {
-            if (initialized)
+            if (field)
             {
                 return saveStateAssembly != null;
             }
@@ -30,18 +28,18 @@ public static class SaveStorageSettingsGizmoUtil
                         continue;
                     }
 
-                    initialized = true;
+                    field = true;
                     saveStateAssembly = assembly;
                     break;
                 }
 
-                if (initialized)
+                if (field)
                 {
                     break;
                 }
             }
 
-            initialized = true;
+            field = true;
 
             return saveStateAssembly != null;
         }
@@ -62,7 +60,7 @@ public static class SaveStorageSettingsGizmoUtil
     public static IEnumerable<Gizmo> AddSaveLoadGizmos(IEnumerable<Gizmo> gizmos, string storageTypeName,
         ThingFilter thingFilter)
     {
-        var gizmos2 = gizmos != null ? [..gizmos] : new List<Gizmo>(2);
+        var gizmos2 = gizmos != null ? [.. gizmos] : new List<Gizmo>(2);
 
         return AddSaveLoadGizmos(gizmos2, storageTypeName, thingFilter);
     }
